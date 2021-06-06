@@ -1,0 +1,30 @@
+{
+  "name": "yocto/yoclib-uuid",
+  "type": "library",
+  "description": "This yocLibrary enables your project to read and write UUIDs.",
+  "keywords":[
+	"composer",
+	"guid",
+	"php",
+	"uuid",
+	"yocto",
+	"yoclib"
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+	"php": "^7||^8"
+  },
+  "require-dev": {
+	"phpunit/phpunit": "^7||^8||^9"
+  },
+  "autoload": {
+	"psr-4": {
+	  "YOCLIB\\UUID\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "YOCLIB\\UUID\\Tests\\": "tests/"
+	}
+  }
+}
